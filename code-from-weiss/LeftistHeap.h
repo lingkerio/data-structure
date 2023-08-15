@@ -60,7 +60,7 @@ class LeftistHeap
     /**
      * Returns true if empty, false otherwise.
      */
-    bool isEmpty( ) const
+    [[nodiscard]] bool isEmpty( ) const
       { return root == nullptr; }
     
     /**
